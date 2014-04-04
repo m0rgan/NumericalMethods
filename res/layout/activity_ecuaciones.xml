@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSeleccione"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="18dp"
+        android:text="Seleccione un método:"
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnBusquedas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tvSeleccione"
+        android:layout_marginTop="20dp"
+        android:text="Busquedas Incrementales" />
+    
+    <Button
+        android:id="@+id/btnBiseccion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBusquedas"
+        android:text="Método de Bisección" />
+
+    <Button
+        android:id="@+id/btnReglaFalsa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnBiseccion"
+        android:text="Regla Falsa" />
+
+    <Button
+        android:id="@+id/btnPuntofijo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnReglaFalsa"
+        android:text="Método de Punto fijo" />
+
+    <Button
+        android:id="@+id/btnNewton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnPuntofijo"
+        android:text="Método de Newton" />
+
+    <Button
+        android:id="@+id/btnSecante"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnNewton"
+        android:text="Método de la Secante" />
+
+</RelativeLayout>

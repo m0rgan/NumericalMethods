@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/tvHelpBusqeudas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="16dp"
+        android:text="El objetivo del método es encontrar un intervalo que contenga al menos una raíz en una función continua que se va a evaluar, este intervalo debe tener una cúspide para asegurarse de que existe al menos una raíz, se basa en el teorema del valor intermedio."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

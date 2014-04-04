@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin" >
+
+    <TextView
+        android:id="@+id/tvAyuda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="El método de bisección divide el intervalo inicial en dos subintervalos del mismo tamaño. Para seleccionar el nuevo intervalo, la función se evalúa con el límite inferior del intervalo actual. Comprueba si el signo de la evaluación es diferente de la evaluación del punto medio. Si cambia el signo, la raíz se encuentra dentro del primer subintervalo, por lo que el nuevo intervalo es el punto más bajo al punto medio, de lo contrario el nuevo intervalo es el otro, el punto medio al punto superior. Al hacer los pasos anteriores en repetidas ocasiones, los puntos medios de cada iteración son una sucesión numérica que converge en busca de raíces."
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>

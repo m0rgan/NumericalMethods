@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:text="x = "
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/btnSolucionarP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignRight="@+id/textView7"
+        android:layout_below="@+id/textView7"
+        android:layout_marginTop="14dp"
+        android:text="Solucionar" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="19dp"
+        android:text="Tolerancia ="
+        android:textSize="18dp" />
+
+    <Button
+        android:id="@+id/btnGraficarP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnSolucionarP"
+        android:layout_alignRight="@+id/btnSolucionarP"
+        android:layout_below="@+id/btnSolucionarP"
+        android:layout_marginTop="19dp"
+        android:text="Graficar" />
+
+    <EditText
+        android:id="@+id/etXP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_toRightOf="@+id/textView4"
+        android:ems="10"
+        android:hint="x inicial"  />
+
+    <EditText
+        android:id="@+id/etTP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView6"
+        android:layout_alignBottom="@+id/textView6"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_toRightOf="@+id/textView6"
+        android:ems="10" 
+        android:hint="Tolerancia" />
+
+    <EditText
+        android:id="@+id/etIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etTP"
+        android:layout_marginTop="42dp"
+        android:layout_toRightOf="@+id/textView7"
+        android:ems="10"
+        android:hint="Iteracion" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignTop="@+id/etIP"
+        android:text="Numero de iteraciones ="
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/etFP"
+        android:layout_marginTop="46dp"
+        android:text="Ingrese el x inicial:"
+        android:textSize="18dp" />
+
+    <EditText
+        android:id="@+id/etFP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="Función f(x)" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/etFGP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/etFP"
+        android:ems="10" 
+        android:hint="Función g(x)"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="20dp"
+        android:text="Por favor ingrese los datos:"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:text="Funciónes:"
+        android:textSize="18dp" />
+
+</RelativeLayout>
